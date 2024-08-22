@@ -1,3 +1,5 @@
+//Deivid Andres Real Franco
+//22/08/2024
 import java.util.Scanner;
 import java.util.Random;
 public class Main {
@@ -18,9 +20,10 @@ public class Main {
                 System.out.println("   ");
                 i++;
                 Thread.sleep(2000);
-                //se implemento la line de codigo Thread.sleep(2000); para realizar una pausa
-                //en este caso de dos segundos y tambien por correcion del programa se agrego
-                //throws InterruptedException para su correcto funcionamiento
+                //se implemento la linea de codigo Thread.sleep(); para realizar una pausa
+                //en este caso de dos segundos pero ya que trabaja con milisegundos se coloca 2000
+                // tambien por correcion del programa se agrego la linea
+                //"throws InterruptedException" para su correcto funcionamiento
             }
             else if(sur==2){
                 System.out.println("¡opps!,perdiste la mitad de lo que apostaste");
